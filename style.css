@@ -1,0 +1,286 @@
+body{ font-family: 'Hind Siliguri', sans-serif; font-family: 'Roboto Slab', serif;}
+p{font-weight: 400;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700;}
+#header_area{padding: 10px 0;}
+#main_manu{ text-align: right;}
+#main_manu ul{margin : 0; padding : 0;list-style: none;}
+#main_manu ul ul{ position: absolute; display: none;}
+#main_manu ul li:hover > ul { display: block; }
+#main_manu ul ul li{ text-align: left; background: #fff;
+  display: list-item;
+  position: relative;
+  border-top: none;}
+#main_manu ul li{display: inline-block;}
+#main_manu ul li a{display: block; font-size: 18px; color: #3B3849; font-family: 'Hind Siliguri', sans-serif;text-decoration:none;padding-top:25px;padding-left: 10px;padding-right: 10px;}
+#main_manu ul li a:hover{ color: #000; }
+#join{padding-top:17px; }
+#join1{background: #C2342E; color: #fff; font-size: 20px;padding-left: 20px; padding-right: 35px; padding-left: 35px; padding-top: 5px; padding-bottom: 5px; border: 0px solid; border-radius: 25px;}
+#join1:hover{background: #A9181C;}
+
+.btn {
+    border-radius: 26px;
+    color: #fff;
+    text-align: center;
+    padding: 15px 40px;
+    border: none;
+    line-height: 24px;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    box-shadow: 0px 5px 15px -5px rgb(0 0 0 / 78%);
+    background: transparent linear-gradient(110deg, #8FA739 0%, #8FA739 100%) 0% 0% no-repeat padding-box;
+}
+
+.btn:hover {
+        color: #fff;
+        background: transparent linear-gradient(249deg,  #DE0655 0%,#EF512E  100%) 0% 0% no-repeat padding-box;
+    }
+.banner-details {
+    background: linear-gradient(to bottom, #6120D6, #8645EE);
+    padding-bottom: 170px;
+    padding-top: 80px;
+}
+
+.banner-details .embed-responsive-16by9 {
+        transform: scale(1);
+    }
+
+.banner-details .content h1 {
+        color: #FFFF84;
+        font-size: 42px;
+        margin-bottom: 15px;
+        border-left: 5px solid #fff;
+        padding-left: 15px;
+        font-family: Hind Siliguri;
+    }
+
+.banner-details .content p {
+        color: #fff;
+        font-size: 20px;
+        padding-left: 20px;
+        margin-bottom: 30px;
+        font-family: Hind Siliguri;
+    }
+
+.banner-details .btn-enroll {
+        font-family: "Roboto Slab";
+    }
+
+.program-section {
+    margin-top: -120px;
+    padding-bottom: 95px;
+
+}
+
+
+.program-section .content-title {
+        font-size: 28px;
+        padding-left: 10px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #000;
+        font-family: Hind Siliguri;
+
+    }
+
+.program-section .content-title span {
+            font-size: 16px;
+        }
+
+.program-section .nav-pills .nav-item {
+        width: 30%;
+        padding-right: 0px;
+        background: linear-gradient(to bottom, #000000, #545454);
+        margin: 0px 5px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin-left: 0px;
+    }
+
+.program-section .nav-pills .nav-item .nav-link {
+            width: 100%;
+            color: #fff;
+            font-size: 21px;
+            font-family: Roboto Slab;
+        }
+
+.program-section .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        background: linear-gradient(to bottom, #FFFFFF, #DFDFDF);
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        color: #000;
+    }
+
+.program-section #pills-tabContent {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+.program-section .tab-pane {
+        transition: .5s;
+    }
+
+.program-section .accordion-item {
+        margin: 10px;
+    }
+
+.program-section p {
+        font-family: Hind Siliguri;
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+
+.program-section .download-routine-item {
+        position: relative;
+        width: 100%;
+        background-color: #F1F1F1;
+        border-radius: 26px !important;
+        font-family: Hind Siliguri;
+
+    }
+
+.program-section .download-routine-btn {
+        background-color: #5918D0 !important;
+        color: #fff !important;
+        padding: 13px 20px;
+        border-radius: 26px !important;
+        font-size: 18px !important;
+        font-family: Roboto Slab;
+        box-shadow: none;
+        text-decoration: none;
+    }
+
+.program-section .accordion-button {
+        background: #904FF4;
+        color: #fff;
+        font-size: 25px;
+        font-family: Roboto Slab;
+        box-shadow: none;
+    }
+
+
+
+.program-section .accordion-button::after {
+            background-color: #fff;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            background-size: 30px;
+            background-image: none;
+            content: "\f282";
+            font-family: bootstrap-icons !important;
+            color: #3B3849;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+.program-section .accordion-body {
+        font-family: Hind Siliguri;
+        font-size: 18px;
+    }
+
+.program-section .download-routine-item ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+
+.program-section .download-routine-item ul li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+.program-section .download-routine-item ul li a::after {
+                content: "\f356";
+                font-family: bootstrap-icons !important;
+                right: 25px;
+                position: absolute;
+                transition: .3s;
+            }
+
+.program-section .btn-danger {
+        font-size: 18px;
+        font-family: LatoRegular;
+    }
+
+.program-section .download-routine-item ul li a {
+        width: 100%;
+        color: #242424;
+        font-size: 18px;
+        font-family: HindiShiliguriRegular;
+        border-bottom: 1px solid gray;
+        padding: 10px 20px 10px 0px;
+        display: flex;
+        align-items: center;
+    }
+
+.program-section .download-routine-item .collapse:not(.show) > ul li a::after {
+        position: relative;
+    }
+
+
+
+.footer-section {
+    background-color: #532356;
+    padding: 50px 0px 0px;
+}
+
+.footer-section ul {
+        list-style: none;
+        padding-left: 0px;
+        
+    }
+
+.footer-section h4 {
+        color: #fff;
+        font-weight: 400;
+    }
+
+.footer-section ul li a {
+        color: #fff;
+        line-height: 35px;
+        font-size: 12px;
+        font-family: Roboto Slab;
+        text-decoration:none;
+    }
+
+.footer-section ul li a:hover {
+            color: #89affa;
+        }
+
+.footer-section p {
+        font-size: 12px;
+        font-family: Roboto Slab;
+        color: #fff;
+        text-decoration:none;
+    }
+
+.footer-section .media a {
+        padding-right: 12px;
+        color: #fff;
+        font-size: 30px;
+    }
+
+footer {
+    background-color: #532356;
+    padding: 10px 0px;
+}
+
+footer hr {
+        color: #ffffff;
+    }
+
+footer p,
+footer a {
+        font-size: 12px;
+        color: #fff;
+        font-family: Roboto Slab;
+        text-decoration:none;
+    }
